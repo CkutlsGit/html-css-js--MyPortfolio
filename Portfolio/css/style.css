@@ -1,0 +1,338 @@
+/* 
+font-family: 'Inika', serif;
+font-family: 'Irish Grover', cursive;
+*/
+
+body, html {
+    font-size: 34px;
+    line-height: normal;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background: linear-gradient(to left, #000, #411664);
+}
+
+.header__logo {
+    margin-left: 27px;
+    margin-top: 18px;
+}
+
+.logo__btn {
+    margin-left: 47px;
+}
+
+.header__nav {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    margin-right: 27px;
+}
+
+.nav__btn {
+    margin-left: 78px;
+    background: linear-gradient(to left, #453652 10%, #9E51EB 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 40%;
+}
+
+/* /Header */
+
+/* Intro */
+
+.intro {
+    position: relative;
+    height: 100vh;
+}
+  
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500vh;
+    background: linear-gradient(to bottom left, #000, #76469C);
+    z-index: -1;
+}
+  
+.intro__content {
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    padding-top: 95px;
+}
+  
+.intro__content h1 {
+    background: linear-gradient(to top, #2A4EAB, #541AF9 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 45%;
+    font-family: 'Irish Grover', cursive;
+    margin-top: 29px;
+    font-size: 48px;
+}
+
+.intro__content--elements {
+    margin-top: 39px;
+    text-transform: uppercase;
+    font-size: 64px;
+    user-select: none;
+    font-family: 'Inika', serif;
+}
+
+.intro__content--first__elm {
+    background: linear-gradient(to top, #7921D1, #8639D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+}
+
+.intro__content--two__elm {
+    background: linear-gradient(to top, #4D2C66 35%, #9919FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro__content--three__elm {
+    background: linear-gradient(to top, #8E5AA7, #9F15E0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+}
+
+.intro__experience {
+    margin-left: 144px;
+    margin-top: 122px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.intro__experience h3 {
+    background: linear-gradient(to bottom, #627ab8, #541AF9 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+}
+
+.intro__experience h4 {
+    color: #676F98;
+    opacity: 50%;
+    margin-left: 17px;
+}
+
+/* /Intro */
+
+/* About */
+
+.about {
+    margin-top: 280px;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+}
+
+.about__content h1 {
+    text-align: center;
+    font-size: 74px;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, #3C5AC7, #8F00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+    letter-spacing: 11.1px;
+}
+
+.about__info {
+    display: flex;
+}
+
+.about__info p {
+    width: 1050px;
+    margin-top: 70px;
+    margin-left: 68px; 
+    margin-right: 68px;
+    background: linear-gradient(to left bottom, #5057F6, #F7C2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 40%;
+    letter-spacing: 6.8px;
+}
+
+
+/* /About */
+
+/* Work */
+
+.work {
+    padding-top: 350px;
+    text-align: center;
+}
+
+.work__content h1 {
+    margin-bottom: 35px;
+    background: linear-gradient(to bottom, #98A7DA, #4464D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 60%;
+    font-size: 64px;
+    letter-spacing: 11.1px;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+}
+
+.work__content h2 {
+    background: linear-gradient(to bottom, #094AF1, #9258C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+    font-size: 54px;
+    letter-spacing: 6.1px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+}
+
+.work__items {
+    display: block;
+    padding-top: 132px;
+}
+
+.work__item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 76px 123px 76px;
+}
+
+/* /Work */
+
+/* Purposes */
+
+.purposes {
+    padding-top: 350px;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.purposes__content h1,
+.purposes__content p {
+    text-align: center;
+}
+
+.purposes__content h1 {
+    font-size: 64px;
+    letter-spacing: 9.5px;
+    margin-bottom: 12px;
+    background: linear-gradient(to bottom, #00C2FF, #447A00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 30%;
+}
+
+.purposes__content p {
+    font-size: 54px;
+    background: linear-gradient(to bottom, #3988FF, #416A0C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 50%;
+}
+
+.purposes__list--ul {
+    margin-left: 100px;
+    margin-top: 228px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purposes__list--ul ul li {
+    margin-bottom: 15px;
+    opacity: 50%;
+}
+
+.purposes__list--ul__img {
+    margin-top: -90px;
+    margin-right: 200px;
+}
+
+/* /Purposes */
+
+/* Footer */
+
+.footer {
+    padding-top: 200px;
+}
+
+.footer__element {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container a {
+    margin-top: 36px;
+    color: #fff;
+    font-size: 34px;
+    font-family: 'Irish Grover', cursive;
+    letter-spacing: 20px;
+    text-decoration: none;
+}
+
+/* /Footer */
+
+/* Element For JS */
+
+.element {
+    display: none;
+    position: absolute; 
+    top: 4700px;
+    left: 600px;
+    border-radius: 20px;
+    width: 700px;
+    text-align: center;
+    background: #9759c9;
+    user-select: none;
+    opacity: 0;
+    transition: opacity 2.5s ease; 
+}
+  
+.element--visible {
+    opacity: 1; 
+}
+  
+.element__content h3 {
+    color: #fff;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 10px;
+}
+
+/* /Element For JS */
